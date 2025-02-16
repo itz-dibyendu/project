@@ -8,7 +8,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 body{
     max-width: 100%;
@@ -108,6 +108,6 @@ button img{
     border-radius: 100%;
     border: none;
     outline: none;
-    background-color: #cccccc;
+    background-color: #ffffff;
     padding: .5rem .6rem;
 }
