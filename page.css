@@ -1,26 +1,27 @@
-:root{
-    --main: rgba(224,220,209,255);
-    --hero: #3f6030;
-}
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Outfit:wght@100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
-    /* overflow-y: hidden; */
+    text-transform: capitalize;
 }
 body{
-    max-width: 100%;
-    max-height: 100vh;
+    height: 100vh;
+    width: 100%;
+    background-color: #fbfbfb;
 }
+
 nav{
+    position: fixed;
+    width: 100%;
+    opacity: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: var(--main);
-    
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 ul{
     display: flex;
@@ -48,7 +49,6 @@ button img{
     flex-direction: row;
 }  
 .btn button{
-    background-color: #fbfbfb;
     border: none;
     cursor: pointer;
     padding: .8rem .8rem;   
@@ -63,51 +63,71 @@ button img{
     border: orange 1px solid;
 }
 
-/* main section */
+/* main */
+/* home */
+
 .home{
-    display: flex;
-    min-height: 100vh;
-    background-image: url(assets/back.jpg);
-    background-size: cover;
+    height: 30rem;
+    background-image: url(assets/cover-pic.jpeg);
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
 }
-.home .container{
+.home .description{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: .5rem;
+    padding-left: 2.5rem;
     position: relative;
-    bottom: 3rem;
-    padding-left: 3rem;
-    font-size: 1.5rem;
-    font-weight: 800;
+    top: 10rem;
 }
-.home .container h3{
-    font-size: 4rem;
-    color: var(--hero);
-}
-.home .container span{
-    font-size: 3.5rem;
-    font-weight: 700;
-    color: #c19f18;
-    line-height: 1.5;
-}
-.shop { 
-    width: 8rem;
-    font-size: 1rem;
+.more{
+    position: relative;
+    top: 12rem;
     padding: 1rem;
-    border-radius: 30px;
-    background-color: var(--main) ;
-}
-
-.up{
-    position: fixed;
-    bottom: 3rem;
-    right: 3rem;
-    border-radius: 100%;
+    margin-left: 2.5rem;
+    border-radius: 5rem;
     border: none;
     outline: none;
-    background-color: #ffffff;
-    padding: .5rem .6rem;
+    background-color: #000;
+}
+.more a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* about */
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.about img{
+    height: 250px;
+    width: 250px;
+    margin-left: 2rem;
+}
+.about .editor{
+    position: relative;
+    top: 2.5rem;
+    padding-right: 2rem; 
+}
+/* topic */
+.topic{
+    display: grid;
+    grid-template-columns: 50rem auto;
+}
+.left p ,.right p{
+    padding: 1rem 2rem;
+}
+.left h2 ,.right h2{
+    padding: 2rem 1rem 0 ;
+}
+.left p{
+    align-items: center;
 }

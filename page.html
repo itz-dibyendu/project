@@ -2,60 +2,72 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/jpg" href="public/logo.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Unlocking Insights from Big Data">
+    <meta name="author" content="Arnob">
+    <link rel="icon" type="image/png" href="public/icon.png">
     <link rel="stylesheet" href="page.css">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Outfit:wght@100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Outfit:wght@100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>DataInsighter</title>
 </head>
 <body>
     <header>
         <nav>
-        <div>
-           <h1 style="font-size: 2rem; cursor: pointer;">ShopOn.</h1>
-        </div>
-        <div class="menu">
-            <ul>
+            <div class="logo">
+                <h1 style="font-size: 2rem; cursor: pointer;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-family: Lobster, serif;
+                font-weight: 400;
+                font-style: normal;">DataInsighter</h1>
+            </div>
+            <ul class="menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#product">Product</a></li>
+                <li><a href="#topic">Topic</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </div>
-        <div class="btn">
-            <button><a href="#home">Get Started</a></button>
-            <button><img src="public/user.png" alt="user"></button>
-        </div>
+            <div class="btn">
+                <button><a href="#home">Get Started</a></button>
+                <button><img src="public/user.png" alt="user"></button>
+            </div>
         </nav>
     </header>
-<main>
-    <section>
-        <div class="home">
-            <div class="container">
-            <h3>Welcome to ShopOn</h3>
-            <span>The Future of Online Shopping</span>
-            <p><em>
-                Tired of slow checkout lines? Our app makes shopping fast and <br> easy with seamless checkout, lightning-fast browsing, and exclusive deals. <br> Download now for the ultimate convenience!
-            </em></p>
-            <div class="shop">
-                Shop Now
+    <main>
+        <section>
+            <div class="home">
+                <div class="description">
+                    <h2 style="padding-bottom: 1rem;font-size: 3rem;">Welcome to DataInsighter</h2>
+                <p style="font-weight: 700;">Data Science uses advanced algorithms and statistical methods to analyze data and extract insights,<br> while Big Data Analytics processes large datasets to uncover trends and patterns.<br> These fields are essential in today’s data-driven world for making informed decisions and driving business growth.</p>
+                
+                </div> 
+                <button type="button" class="more"><a href="https://www.coursera.org/in/articles/big-data-analytics">Learn More</a></button>              
             </div>
-            </div>            
-           </div>
-    </section>
-
-    <section>
-        <div class="about" id="about">
-            <img src="public/user2.png" alt="">
-            p
-         </div>
-    </section>
-</main>
-    
-
-    <button class="up"><a href="#home">
-        <img src="public/up.png" alt="arrow">
-    </a></button>
-
+        </section>
+        <section style="background-color: #eceff1;">
+            <div class="about">
+                <img src="public/user2.png" alt="" >
+                <p><em>"Unlock the power of big data with our fast and flexible platform for Data Science and Big Data Analytics. Seamlessly extract valuable insights from vast datasets with ease."</em></p>
+                <span class="editor">Arnob</span>
+            </div>
+        </section>
+        <section>
+            <div class="topic">
+                <div class="left">
+                    <h2>topics</h2>
+                    <p>Databricks Capitalizes on AI Demand</p>
+                    <p>Data Science Enhances Safety and Performance in Manufacturing</p>
+                    <p>ArcticDB Revolutionizes Financial Data Analysis</p>
+                    <p>indward's Strategic Sale to Octopus UK Bidco</p>
+                </div>
+                <div class="right">
+                    <h2>details</h2>
+                    <p>Databricks, founded by UC Berkeley data scientists, has experienced substantial growth by leveraging the increasing demand for artificial intelligence (AI) in corporate America. The company reported a 60% year-over-year revenue increase, anticipating a $3 billion revenue run rate. Notable clients include Regeneron, Mastercard, Rivian, and Shell, who utilize Databricks' tools for AI applications. In 2023, Databricks acquired AI startup Mosaic for $1.3 billion, enabling the development of their own large language model, DBRX. Despite speculation, Databricks has no immediate plans for an initial public offering.</p>
+                    <p>In manufacturing, combining sensors, cameras, and analytics has led to improved safety and performance. By establishing a communicative system that monitors metrics, vibrations, and environmental signals, shops can detect equipment issues before they cause accidents or slowdowns. These tools provide operators with better information to make informed decisions about maintenance and safety</p>
+                    <p>Man Group, a London-based hedge fund, developed ArcticDB, a high-capacity data analysis tool designed to efficiently handle vast amounts of financial data, such as tick data from stock trades. Created over a decade and recently commercialized, ArcticDB has been adopted by companies like Bloomberg, integrating it into their BQuant analytics tools for financial services. The tool allows for quick data processing on an industrial scale, accommodating billions of rows and millions of columns, primarily through coding rather than traditional spreadsheet interfaces.</p>
+                    <p>Windward, a maritime analytics company, is set to be sold for £216 million to Octopus UK Bidco, a subsidiary of FTV VIII managed by FTV Capital. The sale, which is expected to be completed by Q1 2025, aims to increase Windward's access to US capital markets and enable rapid business expansion. Windward provides AI and big data solutions to help organizations manage maritime risks and comply with regulations.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
 </body>
 </html>
