@@ -98,8 +98,8 @@ button img{
     font-weight: 700;
 }
 
-/* about */
-.about{
+/* opinion */
+.opinion{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -108,15 +108,45 @@ button img{
     font-weight: 600;
     font-style: normal;
 }
-.about img{
+.opinion img{
     height: 250px;
     width: 250px;
     margin-left: 2rem;
 }
-.about .editor{
+.opinion .editor{
     position: relative;
     top: 2.5rem;
     padding-right: 2rem; 
+}
+/* about */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.about .left, .about .right {
+    flex: 1;
+    margin: 1rem;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.about .left p, .about .right p {
+    text-align: justify;
+    font-size: 1.2rem;
+    color: #384B70;
+    margin-top: 1rem; /* Add margin-top for spacing */
 }
 /* topic */
 .topic{
