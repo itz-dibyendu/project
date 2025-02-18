@@ -139,11 +139,10 @@ button img{
 /* contact */
 .contact h2{
     text-align: center;
-    margin-bottom: 1rem;
+    margin-top: 6rem;
 }
 .contact p{
     text-align: center;
-    margin-bottom: 1rem;
 }
 .contact .contact-with-us {
     display: grid;
@@ -180,7 +179,7 @@ textarea:hover{
 .left-contact .submit{
     width: 6rem;
     padding-right: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: .2rem;
 }
 
 .right-contact a img{
@@ -192,6 +191,7 @@ textarea:hover{
     flex-direction: column;
     margin: 1.5rem 4rem 0;
     text-align: center;
+    gap: 1rem;
 }
 
 .right-contact a {
@@ -202,4 +202,15 @@ textarea:hover{
     display: flex;
     justify-content: center;
     margin-top: 1rem; /* Add some margin to separate from the text */
+}
+
+.right-contact .phone{
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    color: #384B70;
+    font-size: 1.5rem;
+}
+.right-contact p{
+    color: #384B70;
+    font-size: 1.5rem;
 }
