@@ -15,18 +15,18 @@ body{
 nav{
     position: fixed;
     width: 100%;
-    opacity: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
     background-color: #f8f8f8;
+    z-index: 1000;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 ul{
     display: flex;
     list-style: none;
-    gap: 3rem;
+    gap: 4rem;
 }
 ul li a{
     text-decoration: none;
@@ -81,6 +81,7 @@ button img{
     position: relative;
     top: 10rem;
 }
+
 .more{
     position: relative;
     top: 12rem;
@@ -129,5 +130,66 @@ button img{
     padding: 2rem 1rem 0 ;
 }
 .left p{
-    align-items: center;
+    padding-top: 6rem;
+}
+.right p a{
+    text-decoration: none;
+    color: #000;
+}
+/* contact */
+.contact h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.contact p{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.contact .contact-with-us {
+    display: grid;
+    grid-template-columns: 60rem auto
+}
+input{
+    border: 2px solid #d3cece;
+    border-radius: 5rem;
+    padding-left: 1rem;
+    color: #384B70;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 4rem 0;
+}
+input:hover{
+    border: 2px solid #FF9D3D;
+}
+textarea{
+    border: 2px solid #d3cece;
+    margin: 1.5rem 4rem 0;
+    padding: 1rem 1rem 0;
+    color: #384B70;
+    border-radius: 2.5rem;
+    height: 300px;
+    width: 500px;
+    font-size: 1.5rem;
+    resize: none;
+}
+textarea:hover{
+    border: 2px solid #FF9D3D;
+}
+.left-contact .submit{
+    width: 6rem;
+    padding-right: 1rem;
+    margin-bottom: 2rem;
+}
+.right-contact{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 4rem 0;
+    text-align: center;
+   
+}
+.right-contact a img{
+    width: 30px;
+    height: 30px;
 }
