@@ -182,14 +182,24 @@ textarea:hover{
     padding-right: 1rem;
     margin-bottom: 2rem;
 }
-.right-contact{
+
+.right-contact a img{
+    width: 30px;
+    height: 30px;
+}
+.right-contact {
     display: flex;
     flex-direction: column;
     margin: 1.5rem 4rem 0;
     text-align: center;
-   
 }
-.right-contact a img{
-    width: 30px;
-    height: 30px;
+
+.right-contact a {
+    margin: 0 0.5rem; /* Add some spacing between the logos */
+}
+
+.right-contact .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem; /* Add some margin to separate from the text */
 }
